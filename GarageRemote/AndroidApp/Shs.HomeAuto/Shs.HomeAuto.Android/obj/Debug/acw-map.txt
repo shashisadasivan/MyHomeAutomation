@@ -1,0 +1,8 @@
+Shs.HomeAuto.Android.MainActivity, Shs.HomeAuto.Android;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
+Shs.HomeAuto.Android.MainActivity, Shs.HomeAuto.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
+Shs.HomeAuto.Android.MainActivity;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
+shs.homeauto.android.MainActivity;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
+Shs.HomeAuto.Android.SettingsActivity, Shs.HomeAuto.Android;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
+Shs.HomeAuto.Android.SettingsActivity, Shs.HomeAuto.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
+Shs.HomeAuto.Android.SettingsActivity;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
+shs.homeauto.android.SettingsActivity;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity

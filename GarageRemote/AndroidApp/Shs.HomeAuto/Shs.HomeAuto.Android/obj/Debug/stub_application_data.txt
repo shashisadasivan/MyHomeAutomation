@@ -1,0 +1,2 @@
+android.app.Application
+Shs.HomeAuto.Android.Shs.HomeAuto.Android
