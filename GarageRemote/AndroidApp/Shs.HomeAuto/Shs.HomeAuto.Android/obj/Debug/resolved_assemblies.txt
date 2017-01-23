@@ -1,4 +1,4 @@
-C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\Shs.HomeAuto.Android.dll
+C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\Shs.HomeAuto.Droid.dll
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\Java.Interop.dll
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\Mono.Android.dll
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\mscorlib.dll

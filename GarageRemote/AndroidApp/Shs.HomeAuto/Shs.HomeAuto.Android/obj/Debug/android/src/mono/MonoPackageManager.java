@@ -97,8 +97,8 @@ public class MonoPackageManager {
 
 class MonoPackageManager_Resources {
 	public static final String[] Assemblies = new String[]{
-		/* We need to ensure that "Shs.HomeAuto.Android.dll" comes first in this list. */
-		"Shs.HomeAuto.Android.dll",
+		/* We need to ensure that "Shs.HomeAuto.Droid.dll" comes first in this list. */
+		"Shs.HomeAuto.Droid.dll",
 	};
 	public static final String[] Dependencies = new String[]{
 	};

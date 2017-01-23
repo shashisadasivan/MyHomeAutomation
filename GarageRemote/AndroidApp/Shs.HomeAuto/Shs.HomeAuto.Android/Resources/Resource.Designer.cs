@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("Shs.HomeAuto.Android.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("Shs.HomeAuto.Droid.Resource", IsApplication=true)]
 
-namespace Shs.HomeAuto.Android
+namespace Shs.HomeAuto.Droid
 {
 	
 	

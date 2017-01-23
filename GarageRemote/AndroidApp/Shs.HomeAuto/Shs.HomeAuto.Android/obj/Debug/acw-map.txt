@@ -1,8 +1,12 @@
-Shs.HomeAuto.Android.MainActivity, Shs.HomeAuto.Android;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
-Shs.HomeAuto.Android.MainActivity, Shs.HomeAuto.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
-Shs.HomeAuto.Android.MainActivity;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
-shs.homeauto.android.MainActivity;md5ff3a6b2bbe03bd07e96505017d61c582.MainActivity
-Shs.HomeAuto.Android.SettingsActivity, Shs.HomeAuto.Android;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
-Shs.HomeAuto.Android.SettingsActivity, Shs.HomeAuto.Android, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
-Shs.HomeAuto.Android.SettingsActivity;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
-shs.homeauto.android.SettingsActivity;md5ff3a6b2bbe03bd07e96505017d61c582.SettingsActivity
+Shs.HomeAuto.Droid.MainActivity, Shs.HomeAuto.Droid;md58d6e99cab06c3404d38e07af38ed2466.MainActivity
+Shs.HomeAuto.Droid.MainActivity, Shs.HomeAuto.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58d6e99cab06c3404d38e07af38ed2466.MainActivity
+Shs.HomeAuto.Droid.MainActivity;md58d6e99cab06c3404d38e07af38ed2466.MainActivity
+shs.homeauto.droid.MainActivity;md58d6e99cab06c3404d38e07af38ed2466.MainActivity
+Shs.HomeAuto.Droid.SettingsActivity, Shs.HomeAuto.Droid;md58d6e99cab06c3404d38e07af38ed2466.SettingsActivity
+Shs.HomeAuto.Droid.SettingsActivity, Shs.HomeAuto.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md58d6e99cab06c3404d38e07af38ed2466.SettingsActivity
+Shs.HomeAuto.Droid.SettingsActivity;md58d6e99cab06c3404d38e07af38ed2466.SettingsActivity
+shs.homeauto.droid.SettingsActivity;md58d6e99cab06c3404d38e07af38ed2466.SettingsActivity
+Shs.HomeAuto.Droid.Bluetooth.BluetoothListView2Adapter, Shs.HomeAuto.Droid;md5bb3b8033e659f3df25f65c247071104e.BluetoothListView2Adapter
+Shs.HomeAuto.Droid.Bluetooth.BluetoothListView2Adapter, Shs.HomeAuto.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bb3b8033e659f3df25f65c247071104e.BluetoothListView2Adapter
+Shs.HomeAuto.Droid.Bluetooth.BluetoothListView2Adapter;md5bb3b8033e659f3df25f65c247071104e.BluetoothListView2Adapter
+shs.homeauto.droid.bluetooth.BluetoothListView2Adapter;md5bb3b8033e659f3df25f65c247071104e.BluetoothListView2Adapter
