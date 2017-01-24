@@ -7,10 +7,11 @@ using System;
 
 namespace Shs.HomeAuto.Droid
 {
-    [Activity(Label = "Garage door clicker", MainLauncher = true, Icon = "@drawable/icon")]
+    //[Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/icon")]
+    [Activity(Label = "@string/app_name", MainLauncher = true, Icon = "@drawable/garage")]
     public class MainActivity : Activity
     {
-        Button _settingsButton;
+        ImageButton _settingsButton;
         Button _garageButton;
 
         protected override void OnCreate(Bundle bundle)
@@ -26,7 +27,9 @@ namespace Shs.HomeAuto.Droid
 
         private void SetControls()
         {
-            this._settingsButton = FindViewById<Button>(Resource.Id.SettingsButton);
+            //this._settingsButton = FindViewById<Button>(Resource.Id.SettingsButton);
+            this._settingsButton = FindViewById<ImageButton>(Resource.Id.settingsImageButton);
+            
             this._garageButton = FindViewById<Button>(Resource.Id.GarageDoorButton);
 
             this._settingsButton.Click += _settingsButton_Click;
@@ -35,6 +38,7 @@ namespace Shs.HomeAuto.Droid
 
         private async void _garageButton_Click(object sender, System.EventArgs e)
         {
+            this._garageButton.Enabled = false;
             try
             {
                 // Send signal to BLuetooth
@@ -43,11 +47,18 @@ namespace Shs.HomeAuto.Droid
 
                 await helper.SendSignal(defaultDevice);
 
-                Toast.MakeText(this, "Garage door called", ToastLength.Short);
+                Toast.MakeText(this, "Garage door called", ToastLength.Short)
+                        .Show();
             }
             catch(Exception ex)
             {
-                Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Long);
+                //Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Long);
+                Toast.MakeText(ApplicationContext, "Error: " + ex.Message, ToastLength.Long)
+                    .Show();
+            }
+            finally
+            {
+                this._garageButton.Enabled = true;
             }
         }
 

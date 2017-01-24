@@ -7,8 +7,8 @@
   <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Shs.HomeAuto.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:icon="@drawable/icon" android:label="Garage door clicker" android:name="md58d6e99cab06c3404d38e07af38ed2466.MainActivity">
+  <application android:label="Garage switch" android:theme="@android:style/Theme.Material.Light" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/garage" android:debuggable="true">
+    <activity android:icon="@drawable/garage" android:label="@string/app_name" android:name="md58d6e99cab06c3404d38e07af38ed2466.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

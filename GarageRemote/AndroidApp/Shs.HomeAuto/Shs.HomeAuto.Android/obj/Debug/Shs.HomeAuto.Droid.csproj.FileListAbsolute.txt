@@ -36,5 +36,9 @@ C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.Ho
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\System.ServiceModel.Internals.dll.mdb
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\System.Xml.dll.mdb
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\android\assets\System.Xml.Linq.dll.mdb
+C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\res\drawable\garage.png
+C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\res\drawable\settings.png
+C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\res\drawable\settings_16.png
+C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\res\drawable\settings_24.png
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\obj\Debug\Shs.HomeAuto.Droid.dll.mdb
 C:\Localdata\GitHub\MyHomeAutomation\GarageRemote\AndroidApp\Shs.HomeAuto\Shs.HomeAuto.Android\bin\Debug\Shs.HomeAuto.Droid.dll.mdb

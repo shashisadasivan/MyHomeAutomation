@@ -9,17 +9,14 @@
         android:layout_height="wrap_content"
         android:id="@+id/linearLayout1"
         android:gravity="right">
-        <TextView
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall"
+        <ImageButton
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/textView1" />
-        <Button
-            android:text="Settings"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:id="@+id/SettingsButton" />
+            android:layout_height="wrap_content"
+            android:id="@+id/settingsImageButton"
+            android:src="@drawable/settings_24"
+            android:layout_marginTop="5dip"
+            android:layout_marginRight="5dip"
+            android:padding="15dip" />
     </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
@@ -33,6 +30,7 @@
             android:text="Garage door"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/GarageDoorButton" />
+            android:id="@+id/GarageDoorButton"
+            android:layout_marginTop="20dip" />
     </LinearLayout>
 </LinearLayout>

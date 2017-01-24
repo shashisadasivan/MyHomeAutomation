@@ -41,7 +41,8 @@ namespace Shs.HomeAuto.Droid
             }
             catch(Exception ex)
             {
-                Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Long);
+                Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Long)
+                    .Show();
             }
         }
 
@@ -64,11 +65,13 @@ namespace Shs.HomeAuto.Droid
 
                 Storage.Settings.SetDefaultDevice(selectedDevice.Address);
 
-                Toast.MakeText(this, "Default device set", ToastLength.Short);
+                Toast.MakeText(this, "Default device set", ToastLength.Short)
+                        .Show();
             }
             catch (Exception ex)
             {
-                Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Long);
+                Toast.MakeText(this, "Error: " + ex.Message, ToastLength.Long)
+                        .Show();
             }
         }
 
