@@ -39,9 +39,30 @@ namespace Shs.HomeAuto.Droid.Bluetooth
             return this._adapter.BondedDevices;
         }
 
+        /// <summary>
+        /// Starts the Bluetooth module if it is not already
+        /// </summary>
+        public void CheckBluetoothStatus()
+        {
+            var enable = false;
+            if(this._adapter.IsEnabled == false
+                || this._adapter.State == State.Off)
+            {
+                throw new Exception("Turn BLuetooth on");
+                /*
+                enable = this._adapter.Enable();
+                while (enable == true && this._adapter.State != State.Connected)
+                {
+                    System.Threading.Thread.Sleep(500);
+                }
+                */
+            }
+        }
         public async Task<bool> TryConnect(string address)
         {
             bool ret = false;
+
+            this.CheckBluetoothStatus(); // Start the Bluetooth if it is not already
 
             _device = this._adapter.BondedDevices.Where(bt => bt.Address.Equals(address)).FirstOrDefault();
             if(_device != null)

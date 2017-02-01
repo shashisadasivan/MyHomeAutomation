@@ -59,6 +59,7 @@ namespace Shs.HomeAuto.Droid
             finally
             {
                 this._garageButton.Enabled = true;
+                Toast.MakeText(ApplicationContext, "Finally", ToastLength.Short).Show();
             }
         }
 
